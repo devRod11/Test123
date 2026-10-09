@@ -1,0 +1,62 @@
+AD DS – Root Domain Name and Password
+1. Click AD DS located on the upper left corner of Server Manager
+2. Click More
+3. Click Promote the Server to a Domain Controller
+4. Under Deployment Configuration, add a New Forest
+5. Type the Root domain name: ________ (Ex: Css.com – any code you can think of)
+6. Click Next
+7. Domain Controller Options
+•	Select Functional level of the New Forest and Root Domain
+Forest Functional level: Windows Server 2012 R2
+
+•	Type the Directory Services Restore Mode (DSRM) Password
+Password: 
+Confirm Password: 
+8. Click Next (5x)
+9.. Click Install
+10. Click Close (2x)
+11. Restart Computer
+
+ AD DS –Add Organizational Unit
+
+1. Click Tools
+2. Click Active Directory Users and Computers
+3. Click          Domain (Ex. Css.com)
+4. Right Click on your Domain
+•	Click New
+•	Click Organizational Unit
+•	Name (type preferred name of your organization)
+•	Uncheck Protect container from accidental deletion
+•	Click Ok
+
+AD DS – Add Users 
+
+1.	Right Click on the newly created Organizational Unit
+2.	Click New
+3.	Click User
+4.	New Object – User (type the required information)
+5.	Click Next
+6.	Set the preferred password
+7.	Uncheck User must change password at need logon
+8.	Put a check mark on password never expires
+9.	Click Next
+10.	Click Finish
+
+How to Create and Share Folder Needed in the Folder Redirection
+
+1.	Right Click on any part of the computer like desktop
+2.	Right Click New, then Folder
+3.	Type the Name (preferred name)
+4.	Press Enter
+5.	Right Click on the Newly created folder, then click Properties
+6.	Click SHARING
+7.	Click Advanced Sharing
+8.	Put a check mark √ on Share this folder
+9.	Click Permission
+10.	Put a check mark √ on Full Control
+11.	Click Ok (2x)
+12.	Click SECURITY
+
+
+
+
